@@ -11,3 +11,145 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen {
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.App-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-columns > .Section {
+  flex: 1;
+}
+
+.App-columns > .Section:not(:first-child) {
+  padding-left: 0em;
+}
+
+@media screen {
+  .Page {
+    margin: 0 auto;
+    max-width: 210mm;
+    height: 290mm;
+    border: 1px solid #ddd;
+  }
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.5em 2em 0em 2em;
+}
+
+.Header-main {
+  flex: 1;
+}
+
+.Header-name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Header-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Section {
+  padding: 1.5em 2em 0 2em;
+}
+
+.Section-title {
+  margin-bottom: 0.2em;
+}
+
+.Section-titleText {
+  margin: 0;
+  font-size: 1.3em;
+  display: inline;
+  margin-right: 0.25em;
+}
+
+.Skills-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.Skills-groupTitle {
+  margin-right: 0.5em;
+}
+
+.Skills-group {
+}
+
+.Skill-proficiency0 {
+  font-weight: bold;
+  color: #228822;
+}
+
+.Skill-proficiency1 {
+  color: #228888;
+}
+
+.Skill-proficiency2 {
+  color: #888;
+}
+
+.Entry {
+  margin-top: 1em;
+}
+
+.Entry ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5em;
+}
+
+.Entry li {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.Project-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.Job-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.Job-companyContainer {
+}
+
+.Job-company {
+  font-weight: bold;
+  color: #555;
+  opacity: 0.8;
+}
+
+.Job-period {
+  font-style: italic;
+}
