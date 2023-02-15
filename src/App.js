@@ -340,7 +340,7 @@ function App() {
           </Job>
           <Job
             title="Bachelor's Degree, Computer Science"
-            company="Polytechnic University of Bucharest"
+            company="Polytechnic Univ. of Bucharest"
             period="2013-2017"
           ></Job>
         </Section>
