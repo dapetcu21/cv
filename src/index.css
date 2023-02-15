@@ -125,6 +125,21 @@ a:visited {
   font-size: 1.5rem;
 }
 
+.Header-download {
+  color: #666;
+  margin-right: 1rem;
+}
+
+@media print {
+  .Header-download {
+    display: none;
+  }
+}
+
+.Header-download:hover {
+  opacity: 0.6;
+}
+
 .Header-aside {
   display: flex;
   flex-direction: column;

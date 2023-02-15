@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Page = ({ children }) => <div className="Page">{children}</div>;
 
@@ -10,6 +12,16 @@ const Header = ({ name, email, phone, phoneLink, githubId }) => (
         github.com/{githubId}
       </a>
     </div>
+
+    <a
+      href="Marius Petcu.pdf"
+      download
+      title="Download as PDF"
+      className="Header-download"
+    >
+      <FontAwesomeIcon size="lg" icon={faFilePdf} />
+    </a>
+
     <div className="Header-aside">
       <a href={`mailto:${email}`} className="Header-email">
         {email}
