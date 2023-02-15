@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -18,7 +20,8 @@ ol, ul {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Fira Sans',
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +46,7 @@ a:visited {
 
 @media print {
   html {
-    font-size: 3.96mm;
+    font-size: 3.9mm;
   }
 
   @page {
@@ -118,7 +121,7 @@ a:visited {
 }
 
 .Header-name {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 
@@ -147,7 +150,7 @@ a:visited {
 
 .Section-titleText {
   margin: 0;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.3rem;
   display: inline;
   margin-right: 0.25rem;
@@ -166,16 +169,16 @@ a:visited {
 }
 
 .Skill-proficiency0 {
-  font-weight: bold;
+  font-weight: 500;
   color: #228822;
 }
 
 .Skill-proficiency1 {
-  color: #228888;
+  color: #964711;
 }
 
 .Skill-proficiency2 {
-  color: #888;
+  color: #777;
 }
 
 .Entry {
@@ -196,12 +199,12 @@ a:visited {
 }
 
 .Project-title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 
 .Job-title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 
@@ -209,7 +212,7 @@ a:visited {
 }
 
 .Job-company {
-  font-weight: bold;
+  font-weight: 500;
   color: #555;
   opacity: 0.8;
 }

@@ -336,7 +336,7 @@ function App() {
             <li>
               Volunteered as debate trainer for a group of high-schoolers.
             </li>
-            <li>Built tournament tabulation software (Angular 1).</li>
+            <li>Wrote tournament tabulation software (Angular).</li>
           </Job>
           <Job
             title="Bachelor's Degree, Computer Science"
