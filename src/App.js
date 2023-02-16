@@ -279,8 +279,9 @@ function App() {
               Fuior.
             </li>
             <li>
-              Developed web-based (React, Redux) tool for designing complex
-              conversational trees.
+              Developed web-based (React, Redux){" "}
+              <a href="https://interrogation-editor.petcu.me">tool</a> for
+              designing complex conversational trees.
             </li>
             <li>
               Managed build automation, releases and updates on Windows, macOS,
