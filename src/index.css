@@ -140,11 +140,25 @@ a:visited {
   opacity: 0.6;
 }
 
-.Header-aside {
+.Header-contact {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+}
+
+.Header-contactMobile {
+  display: none;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+  .Header-contact {
+    display: none;
+  }
+  .Header-contactMobile {
+    display: flex;
+  }
 }
 
 .Section {

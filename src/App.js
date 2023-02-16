@@ -4,6 +4,19 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Page = ({ children }) => <div className="Page">{children}</div>;
 
+const pdfLink = "Marius Petcu.pdf";
+
+const HeaderContact = ({ className, email, phone, phoneLink }) => (
+  <div className={className}>
+    <a href={`mailto:${email}`} className="Header-email">
+      {email}
+    </a>
+    <a href={phoneLink} className="Header-phone">
+      {phone}
+    </a>
+  </div>
+);
+
 const Header = ({ name, email, phone, phoneLink, githubId }) => (
   <div className="Header">
     <div className="Header-main">
@@ -11,10 +24,17 @@ const Header = ({ name, email, phone, phoneLink, githubId }) => (
       <a href={`https://github.com/${githubId}`} className="Header-github">
         github.com/{githubId}
       </a>
+
+      <HeaderContact
+        className="Header-contactMobile"
+        email={email}
+        phone={phone}
+        phoneLink={phoneLink}
+      />
     </div>
 
     <a
-      href="Marius Petcu.pdf"
+      href={pdfLink}
       download
       title="Download as PDF"
       className="Header-download"
@@ -22,14 +42,12 @@ const Header = ({ name, email, phone, phoneLink, githubId }) => (
       <FontAwesomeIcon size="lg" icon={faFilePdf} />
     </a>
 
-    <div className="Header-aside">
-      <a href={`mailto:${email}`} className="Header-email">
-        {email}
-      </a>
-      <a href={phoneLink} className="Header-phone">
-        {phone}
-      </a>
-    </div>
+    <HeaderContact
+      className="Header-contact"
+      email={email}
+      phone={phone}
+      phoneLink={phoneLink}
+    />
   </div>
 );
 
