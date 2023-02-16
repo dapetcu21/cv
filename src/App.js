@@ -269,7 +269,7 @@ function App() {
           </Project>
           <Project title="Fuior" link={fuiorLink}>
             <li>
-              Typed programming language for narrative design. Compiles to Lua.
+              Built programming language for narrative design. Compiles to Lua.
               Syntax and linting plugins for Vim, VSCode and Atom.
             </li>
           </Project>
