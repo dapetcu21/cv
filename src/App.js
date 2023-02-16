@@ -307,7 +307,16 @@ function App() {
             </li>
           </Project>
         </Section>
-        <Section title="Experience">
+        <Section
+          title="Experience"
+          subtitle={
+            <span>
+              {"("}
+              <a href="https://www.linkedin.com/in/dapetcu21/">full list</a>
+              {")"}
+            </span>
+          }
+        >
           <Job
             title="Co-Founder, Lead Developer"
             company="Critique Gaming"
