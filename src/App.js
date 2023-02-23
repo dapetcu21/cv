@@ -86,18 +86,14 @@ const Skills = ({ skillGroups }) => (
       {skillGroups.map(({ title, skills }) => {
         let firstSkill = true;
         return (
-          <Fragment index={title}>
+          <Fragment key={title}>
             <div className="Skills-groupTitle">{title}: </div>
-            <div className="Skills-group" index={title}>
+            <div className="Skills-group">
               {skills.map((proficiencyGroup, proficiency) =>
                 proficiencyGroup.map((skill, index) => (
-                  <Fragment index={index}>
+                  <Fragment key={index}>
                     {!firstSkill ? ", " : ((firstSkill = false), false)}
-                    <Skill
-                      skill={skill}
-                      proficiency={proficiency}
-                      index={index}
-                    />
+                    <Skill skill={skill} proficiency={proficiency} />
                   </Fragment>
                 ))
               )}
