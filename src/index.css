@@ -212,7 +212,13 @@ a:visited {
 }
 
 .Skill-proficiency2 {
-  color: #777;
+  color: #666;
+}
+
+@print {
+  .Skill-proficiency2 {
+    color: #444;
+  }
 }
 
 .Entry {
