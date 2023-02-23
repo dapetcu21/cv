@@ -365,20 +365,21 @@ function App() {
             </li>
           </Job>
           <Job
-            title="Debate Trainer, IT&Media Officer"
-            company="ARGO Debate"
-            period="2013-2017"
-          >
-            <li>
-              Volunteered as debate trainer for a group of high-schoolers.
-            </li>
-            <li>Wrote tournament tabulation software (Angular).</li>
-          </Job>
-          <Job
             title="Bachelor's Degree, Computer Science"
             company="Polytechnic Univ. of Bucharest"
             period="2013-2017"
           ></Job>
+          <Project title="Misc. experience">
+            <li>
+              Developed two iOS jailbreak tweaks (reverse-enginnering
+              Objective-C APIs).
+            </li>
+            <li>
+              Wrote cross-platform game engine from scratch (C++, Lua, OpenGL).
+            </li>
+            <li>Wrote debate tournament tabulation software (Angular).</li>
+            <li>Debate trainer for two years for a group of high-schoolers.</li>
+          </Project>
         </Section>
       </div>
     </Page>

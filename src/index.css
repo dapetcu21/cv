@@ -46,7 +46,7 @@ a:visited {
 
 @media print {
   html {
-    font-size: 3.9mm;
+    font-size: 3.7mm;
   }
 
   @page {
