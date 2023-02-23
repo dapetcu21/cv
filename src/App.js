@@ -309,7 +309,9 @@ function App() {
           subtitle={
             <span>
               {"("}
-              <a href="https://www.linkedin.com/in/dapetcu21/">full list</a>
+              <a href="https://www.linkedin.com/in/dapetcu21/">
+                full list on LinkedIn
+              </a>
               {")"}
             </span>
           }
