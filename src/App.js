@@ -238,6 +238,8 @@ const tgafLink =
 const tgafDemoLink = "https://critique-gaming.itch.io/the-gods-are-fickle";
 const fuiorLink = gh`critique-gaming/fuior`;
 const gmaiLink = "https://store.steampowered.com/app/1791900/Good_Morning_AI/";
+const div2Link =
+  "https://www.ubisoft.com/en-us/game/the-division/the-division-2";
 
 function App() {
   return (
@@ -317,10 +319,22 @@ function App() {
           }
         >
           <Job
+            title="Senior Programmer"
+            company="Ubisoft"
+            link="https://ubisoft.com"
+            period="2023-present"
+          >
+            <li>
+              Part of the team maintaining and developing gameplay features for{" "}
+              <a href={div2Link}>Tom Clancy's Division 2</a>, a AAA multiplayer
+              live game (C++).
+            </li>
+          </Job>
+          <Job
             title="Co-Founder, Lead Developer"
             company="Critique Gaming"
             link="https://critique-gaming.com"
-            period="2015-present"
+            period="2015-2023"
           >
             <li>
               Lead developer for <a href={tgafLink}>TGAF</a>,{" "}
